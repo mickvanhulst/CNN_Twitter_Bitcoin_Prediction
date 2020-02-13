@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1388e7ce-0e36-4db1-90d7-c6744a6f731b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/eda.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/eda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/generate_matrices.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/generate_matrices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocessing.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$keyword_analysis.coverage" NAME="keyword_analysis Coverage Results" MODIFIED="1539976633321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$get_user_data.coverage" NAME="get_user_data Coverage Results" MODIFIED="1546547563374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$TFIDF.coverage" NAME="TFIDF Coverage Results" MODIFIED="1547549846488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$main.coverage" NAME="main Coverage Results" MODIFIED="1539612375602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$scrape_user.coverage" NAME="scrape_user Coverage Results" MODIFIED="1540038614136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraper" />
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$preprocess_btc_prices.coverage" NAME="preprocess_btc_prices Coverage Results" MODIFIED="1547846913281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$keyword_clusters.coverage" NAME="keyword_clusters Coverage Results" MODIFIED="1544465710044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$generate_matrices.coverage" NAME="generate_matrices Coverage Results" MODIFIED="1547910574118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$multi_scrape.coverage" NAME="multi_scrape Coverage Results" MODIFIED="1539371465287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scraper" />
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$test_jelle.coverage" NAME="test_jelle Coverage Results" MODIFIED="1541761782479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1547494679910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/twitter_bitcoin_analysis$eda.coverage" NAME="eda Coverage Results" MODIFIED="1548365815446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1473033020">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="56" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="7" />
+          <entry key="project.open.time.6" value="25" />
+          <entry key="project.open.time.7" value="11" />
+          <entry key="project.open.time.8" value="5" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="63" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="9" />
+          <entry key="gitignore" value="1" />
+          <entry key="json" value="128" />
+          <entry key="npy" value="5" />
+          <entry key="py" value="150" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="9" />
+          <entry key="JSON" value="128" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="150" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="csv" value="6" />
+          <entry key="dummy" value="18" />
+          <entry key="json" value="3" />
+          <entry key="py" value="56676" />
+          <entry key="txt" value="3647" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSV" value="6" />
+          <entry key="JSON" value="3" />
+          <entry key="PLAIN_TEXT" value="3665" />
+          <entry key="Python" value="56676" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cnt</find>
+      <find>trade_class&quot;:0</find>
+      <find>trade_profitable&quot;:1</find>
+      <find>btc_prices</find>
+      <find>500</find>
+      <find>twitter_user</find>
+      <find>var</find>
+      <find>trade_profi</find>
+      <find>get excit</find>
+      <find>'do'</find>
+      <find>don</find>
+      <find>do'</find>
+      <find>stemmer</find>
+      <find>dont</find>
+      <find>print</find>
+      <find>do nt</find>
+      <find>d</find>
+      <find>train_twets</find>
+      <find>train_</find>
+      <find>above</find>
+      <find>abov</find>
+      <find>abov&quot;</find>
+      <find>dragonfly</find>
+      <find>82</find>
+      <find>porn</find>
+      <find>ding</find>
+      <find>tfidf_vectorizer</find>
+      <find>unix_</find>
+      <find>unix</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\mickv\Desktop\RU\twitter_bitcoin_analysis\preprocessing</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data/user_files/joseph_falzone_tweets.json" />
+        <option value="$PROJECT_DIR$/scraper/multi_scrape.py" />
+        <option value="$PROJECT_DIR$/preprocessing/main.py" />
+        <option value="$PROJECT_DIR$/preprocessing/sentiment_analysis.py" />
+        <option value="$PROJECT_DIR$/scraper/get_user_info.py" />
+        <option value="$PROJECT_DIR$/data/btc_prices/Coinbase_BTCUSD_d.csv" />
+        <option value="$PROJECT_DIR$/data/btc_prices/Gdax_BTCUSD_1h.csv" />
+        <option value="$PROJECT_DIR$/data/processed/gdax_btc_prices.json" />
+        <option value="$PROJECT_DIR$/preprocessing/keyword_analysis.py" />
+        <option value="$PROJECT_DIR$/scraper/scrape_user.py" />
+        <option value="$PROJECT_DIR$/analysis/keyword_analysis.py" />
+        <option value="$PROJECT_DIR$/data/btc_prices/Gdax_BTCUSD_d.csv" />
+        <option value="$PROJECT_DIR$/networks/cnn_keywords_cluster.py" />
+        <option value="$PROJECT_DIR$/preprocessing/test_jelle.py" />
+        <option value="$PROJECT_DIR$/analysis/keyword_clusters.py" />
+        <option value="$PROJECT_DIR$/data/processed/keywords.json" />
+        <option value="$PROJECT_DIR$/preprocessing/__init__.py" />
+        <option value="$PROJECT_DIR$/preprocessing/gen_cust_features_matrix.py" />
+        <option value="$PROJECT_DIR$/preprocessing/get_user_data.py" />
+        <option value="$PROJECT_DIR$/analysis/TFIDF.py" />
+        <option value="$PROJECT_DIR$/preprocessing/preprocess_btc_prices.py" />
+        <option value="$PROJECT_DIR$/preprocessing/preprocessing.py" />
+        <option value="$PROJECT_DIR$/analysis/eda.py" />
+        <option value="$PROJECT_DIR$/preprocessing/generate_matrices.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="480" />
+    <option name="y" value="236" />
+    <option name="width" value="704" />
+    <option name="height" value="384" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Google App Engine (Python)</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="twitter_bitcoin_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_bitcoin_analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter_bitcoin_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_bitcoin_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter_bitcoin_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_bitcoin_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter_bitcoin_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_bitcoin_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="btc_prices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter_bitcoin_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_bitcoin_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="processed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitter_bitcoin_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter_bitcoin_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Course" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../distribution_tweets.png" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="twitter_bitcoin_analysis" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="twitter_bitcoin_analysis" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mickv\Desktop\RU\twitter_bitcoin_analysis\analysis" />
+      <recent name="C:\Users\mickv\Desktop\RU\twitter_bitcoin_analysis\scraper\old" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.eda">
+    <configuration name="TFIDF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitter_bitcoin_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis/TFIDF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eda" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitter_bitcoin_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis/eda.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate_matrices" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitter_bitcoin_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/generate_matrices.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="preprocess_btc_prices" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitter_bitcoin_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/preprocess_btc_prices.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitter_bitcoin_analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/preprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.preprocessing" />
+      <item itemvalue="Python.TFIDF" />
+      <item itemvalue="Python.generate_matrices" />
+      <item itemvalue="Python.preprocess_btc_prices" />
+      <item itemvalue="Python.eda" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.eda" />
+        <item itemvalue="Python.generate_matrices" />
+        <item itemvalue="Python.preprocess_btc_prices" />
+        <item itemvalue="Python.TFIDF" />
+        <item itemvalue="Python.preprocessing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1388e7ce-0e36-4db1-90d7-c6744a6f731b" name="Default Changelist" comment="" />
+      <created>1539363035650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539363035650</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Some basic file changes (name conventions etc).">
+      <created>1541694480636</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1541694480636</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Added restart downloading option (get_user_data)">
+      <created>1541694738723</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1541694738723</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Fixed bug where get_user_data would crash if user didn't have any tweets.">
+      <created>1541744132359</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1541744132359</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Fixed bug where get_user_data would crash if user didn't have any tweets.">
+      <created>1541884351962</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1541884351962</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Can now add counts for TF-IDF">
+      <created>1541943353355</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1541943353356</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Can now add counts for word2vec k-means clustering.">
+      <created>1541943454153</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1541943454153</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Can now generate matrices for different functionalities separately.">
+      <created>1541946519332</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1541946519332</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Can now generate matrices for different functionalities separately.">
+      <created>1541946537390</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1541946537390</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Can now generate matrices for different functionalities separately.">
+      <created>1541946558302</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1541946558302</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Can now generate matrices for different functionalities separately.">
+      <created>1541946994923</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1541946994923</updated>
+    </task>
+    <task id="LOCAL-00056" summary="We're interested in seeing the impact of tweets on all timescales, meaning that a tweet at timestep t should be represented in all its possible matrix forms to measure its impact. This was implemented such that first tweet equals first tweet minus interval and last tweet equals last tweet plus interval (interval equals 30 days).">
+      <created>1542091551681</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1542091551682</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Changed var name for readability.">
+      <created>1542091682867</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1542091682867</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Changed var name for readability.">
+      <created>1542092614943</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1542092614943</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Setup structure final report.">
+      <created>1542097670416</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1542097670416</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Setup structure final report.">
+      <created>1542100798110</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1542100798111</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Setup structure final report.">
+      <created>1542100958684</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1542100958684</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Changed generate matrix function. Works">
+      <created>1542113984347</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1542113984347</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Changed generate matrix function. Works">
+      <created>1542114110899</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1542114110899</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Changed generate matrix function. Works">
+      <created>1542114383456</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1542114383457</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Changed generate matrix function. Works">
+      <created>1542114424888</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1542114424888</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Generate matrices had a bug where not all dates were used due to dt.date missing.">
+      <created>1542174923118</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1542174923119</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Generate matrices had a bug where not all dates were used due to dt.date missing.">
+      <created>1542207800968</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1542207800968</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Add date indication as separate file for matrix generation.">
+      <created>1542211449256</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1542211449256</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Add date indication as separate file for matrix generation.">
+      <created>1542309202333</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1542309202333</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Fixed bug in generate matrices for user data.">
+      <created>1542530745067</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1542530745067</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Fixed bug in generate matrices for date key.">
+      <created>1542531368052</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1542531368053</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Fixed bug in generate matrices for date key.">
+      <created>1542542189752</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1542542189752</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Added to do items for preprocessing.">
+      <created>1542980607551</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1542980607555</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Pick latest user information for generate matrices">
+      <created>1543130583726</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1543130583727</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Pick latest user information for generate matrices">
+      <created>1543144616830</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1543144616830</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Added stemming.">
+      <created>1543146405350</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1543146405350</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Added stemming.">
+      <created>1543169531004</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1543169531004</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Added stemming.">
+      <created>1543333701758</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1543333701758</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Added stemming.">
+      <created>1543778120754</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1543778120755</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Added stemming.">
+      <created>1544365771550</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1544365771550</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Changed generate matrices such that it saves matrices as plots and also&#10;saves btc metadata.">
+      <created>1544474920311</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1544474920312</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Changed generate matrices such that it saves matrices as plots and also&#10;saves btc metadata.">
+      <created>1544476128929</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1544476128929</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Added three-class column and now using TFIDF scores for count variable.">
+      <created>1544909604880</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1544909604881</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Added three-class column and now using TFIDF scores for count variable.">
+      <created>1544911052681</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1544911052681</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Added partial matching for TFIDF">
+      <created>1544918975338</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1544918975338</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Added partial matching for TFIDF">
+      <created>1545244783394</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1545244783395</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Minor changes.">
+      <created>1545505227786</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1545505227787</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Minor changes.">
+      <created>1545946394082</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1545946394083</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Added custom features for matrix generation">
+      <created>1546156972550</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1546156972551</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Minor changes.">
+      <created>1546878148681</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1546878148682</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Cleaned up generate_matrices so that less memory is used.">
+      <created>1546878339984</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1546878339984</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Fixed preprocessing">
+      <created>1547498488338</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1547498488339</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Fixed preprocessing matrices">
+      <created>1547499463506</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1547499463506</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Fixed preprocessing matrices">
+      <created>1547860844954</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1547860844954</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1232" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49899396" weight="0.4016973" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.30877572" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501006" side_tool="true" weight="0.36916548" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49973333" visible="true" weight="0.19176598" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.39973173" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Some basic file changes (name conventions etc)." />
+    <MESSAGE value="Added restart downloading option (get_user_data)" />
+    <MESSAGE value="Fixed bug where get_user_data would crash if user didn't have any tweets." />
+    <MESSAGE value="Can now add counts for TF-IDF" />
+    <MESSAGE value="Can now add counts for word2vec k-means clustering." />
+    <MESSAGE value="Can now generate matrices for different functionalities separately." />
+    <MESSAGE value="We're interested in seeing the impact of tweets on all timescales, meaning that a tweet at timestep t should be represented in all its possible matrix forms to measure its impact. This was implemented such that first tweet equals first tweet minus interval and last tweet equals last tweet plus interval (interval equals 30 days)." />
+    <MESSAGE value="Changed var name for readability." />
+    <MESSAGE value="Setup structure final report." />
+    <MESSAGE value="Changed generate matrix function. Works" />
+    <MESSAGE value="Generate matrices had a bug where not all dates were used due to dt.date missing." />
+    <MESSAGE value="Add date indication as separate file for matrix generation." />
+    <MESSAGE value="Fixed bug in generate matrices for user data." />
+    <MESSAGE value="Fixed bug in generate matrices for date key." />
+    <MESSAGE value="Added to do items for preprocessing." />
+    <MESSAGE value="Pick latest user information for generate matrices" />
+    <MESSAGE value="Added stemming." />
+    <MESSAGE value="Changed generate matrices such that it saves matrices as plots and also&#10;saves btc metadata." />
+    <MESSAGE value="Added three-class column and now using TFIDF scores for count variable." />
+    <MESSAGE value="Added partial matching for TFIDF" />
+    <MESSAGE value="Added custom features for matrix generation" />
+    <MESSAGE value="Minor changes." />
+    <MESSAGE value="Cleaned up generate_matrices so that less memory is used." />
+    <MESSAGE value="Fixed preprocessing" />
+    <MESSAGE value="Fixed preprocessing matrices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed preprocessing matrices" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/RedexeFinance12_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/CheapHotAlts_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/CosmonautC_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/360_trader_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/YowcrypS_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/CryptoZyzz_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/BigCheds_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/btcprotrading_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/1k_experiment_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/MattDavidKaye_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/Fayeez_0_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/bcashwhale_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/0x6265626572_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/user_files_old/0ne0fUs_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/test/processed_tweets.json" />
+    <entry file="file://$PROJECT_DIR$/data/processed/processed_btc_prices.json" />
+    <entry file="file://$PROJECT_DIR$/preprocessing/keyword_analysis.py" />
+    <entry file="file://$PROJECT_DIR$/data/processed/word_occ_cnt.json" />
+    <entry file="file://$PROJECT_DIR$/data/btc_prices/Coinbase_BTCUSD_d.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processed/gdax_btc_prices_1h.json" />
+    <entry file="file://$PROJECT_DIR$/data/processed/processed_tweets_test.json" />
+    <entry file="file://$PROJECT_DIR$/scraper/get_user_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/multi_scrape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/scrape_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/misc/question-words.txt" />
+    <entry file="file://$PROJECT_DIR$/data/processed/gdax_btc_prices.json" />
+    <entry file="file://$PROJECT_DIR$/data/btc_prices/Gdax_BTCUSD_d.csv" />
+    <entry file="file://$PROJECT_DIR$/networks/cnn_keywords_cluster.py" />
+    <entry file="file://$PROJECT_DIR$/data/users/usernames_0.npy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/users/usernames_9.npy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/users/usernames_11.npy">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/test_jelle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/sentiment_analysis.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/keyword_clusters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/data/processed/processed_tweets.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="467">
+          <caret line="54" column="119" selection-start-line="54" selection-start-column="119" selection-end-line="54" selection-end-column="119" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="92" column="32" lean-forward="true" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/btc_prices/Gdax_BTCUSD_1h.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processed/train_tweets_stem.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="179">
+          <caret line="72" column="259" selection-start-line="72" selection-start-column="254" selection-end-line="72" selection-end-column="259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processed/keywords.json">
+      <provider editor-type-id="LargeFileEditor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processed/train_tweets.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="207">
+          <caret line="1257" column="459" selection-start-line="1257" selection-start-column="453" selection-end-line="1257" selection-end-column="459" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/TFIDF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processed/keywords_test.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/gen_cust_features_matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processed/btc_prices.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="374" selection-start-line="33" selection-start-column="374" selection-end-line="33" selection-end-column="374" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/preprocess_btc_prices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/eda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/processed/test_tweets.json">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="7" column="606" selection-start-line="7" selection-start-column="601" selection-end-line="7" selection-end-column="606" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="152" column="65" selection-start-line="152" selection-start-column="65" selection-end-line="152" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/get_user_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/generate_matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
